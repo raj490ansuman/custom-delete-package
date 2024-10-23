@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*! purgecss start ignore */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
+
+* {
+  border-width: 0;
+  border-style: solid;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+svg {
+  @apply align-baseline;
+}
+
+img {
+  @apply inline-block;
+  image-rendering: -webkit-optimize-contrast !important;
+}
+
+textarea {
+  @apply resize-none;
+}
+
+body {
+  @apply bg-white !important;
+
+  font-family: "Noto Sans JP", "游ゴシック", "游ゴシック体", YuGothic,
+    "Yu Gothic", "メイリオ", Meiryo, "ＭＳ ゴシック", "MS Gothic",
+    HiraKakuProN-W3, "TakaoExゴシック", TakaoExGothic, "MotoyaLCedar",
+    "Droid Sans Japanese", sans-serif;
+}
+
+.ant-btn-primary {
+  font-weight: bold !important;
+}
+
+.ant-checkbox {
+  top: 0 !important;
+}
+
+.ant-checkbox-wrapper {
+  align-items: center !important;
+}
+
+.ant-checkbox-inner {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.ant-checkbox-inner::after {
+  top: 50% !important;
+  left: 31% !important;
+  width: 7px !important;
+  height: 13px !important;
+}
+
+.ant-radio-wrapper {
+  align-items: center !important;
+}
+
+.ant-radio {
+  top: 0 !important;
+}
+
+.required-field {
+  color: #fff !important;
+  font-size: 12px !important;
+  background-color: #ff4d4f !important;
+  padding: 2px !important;
+  text-align: center !important;
+  font-weight: 600 !important;
+}
+
+.required-field-text {
+  color: #ff4d4f !important;
+  font-size: 14px !important;
+}
+
+.form-label {
+  font-weight: 600 !important;
+  color: #6e6e6e !important;
+  margin-right: 4px !important;
+}
+
+.ant-table-row-expand-icon::after {
+  bottom: 2px !important;
+}
+
+.ant-table-row-expand-icon::before {
+  top: 7px !important;
+  height: 2px !important;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::after {
+  @apply inline-block;
+  @apply ml-2;
+  @apply text-white;
+  @apply text-xs;
+  content: "必須";
+  background-color: #ff4d4f;
+  @apply p-1;
+  @apply rounded;
+  @apply leading-none;
+}
+.custom-required-decoration {
+	@apply relative;
+	@apply inline-block;
+	@apply ml-2;
+	@apply text-white;
+	@apply text-xs;
+	background-color: #ff4d4f;
+	@apply p-1;
+	@apply rounded;
+	@apply leading-none;
+}
+
+.ant-image-mask {
+  color: transparent !important;
+}
+
+.ant-pagination-total-text {
+  margin-right: 0;
+}
+
+.ant-table-fixed {
+  table-layout: fixed;
+}
+
+.ant-table-tbody > tr > td {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.ant-card-bordered .ant-card-cover {
+  margin: 0 !important;
+}
+
+.custom-modal .ant-modal-content {
+  padding: 0 !important;
+}
+
+.custom-modal .ant-modal-body {
+  padding: 0 !important;
+}
+
+.custom-collapse .ant-collapse-content-box {
+  padding: 0; 
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5; 
+}
+
+.read-more,
+.read-less {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin-left: 4px;
+}
+
+.text-primary {
+  color: #1890ff;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+#nprogress .bar {
+  background: theme("colors.primary");
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px theme("colors.primary"), 0 0 5px theme("colors.primary");
+}
+/*! purgecss end ignore */
