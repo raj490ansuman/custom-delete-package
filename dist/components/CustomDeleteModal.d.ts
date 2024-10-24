@@ -1,8 +1,8 @@
-import React from 'react';
-import { ModalProps } from 'antd';
+import React from "react";
+import { ModalProps } from "antd";
 interface CustomDeleteModalProps extends ModalProps {
     title: React.ReactNode;
-    content: any;
+    content: string;
 }
 declare const CustomDeleteModal: React.FC<CustomDeleteModalProps>;
 export default CustomDeleteModal;

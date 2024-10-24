@@ -25,12 +25,12 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import styled from 'styled-components';
-import { Modal } from 'antd';
+import styled from "styled-components";
+import { Modal } from "antd";
 var StyledModal = styled(Modal)(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  .ant-modal-content {\n    border-top: 5px solid #e01e5a;\n    padding: 0;\n    border-radius: 8px;\n  }\n  .ant-modal-footer {\n    display: flex;\n    justify-content: center;\n    background-color: #f1f4f9;\n    padding: 10px;\n    gap: 8px;\n    border-radius: 8px;\n  }\n  .ant-modal-header {\n    border-bottom: none;\n    padding: 16px;\n    margin-bottom: 0;\n  }\n  .ant-modal-body {\n    border-bottom: none;\n    padding: 16px;\n    padding-top: 0;\n  }\n  p {\n    margin-top: 2px;\n  }\n"], ["\n  .ant-modal-content {\n    border-top: 5px solid #e01e5a;\n    padding: 0;\n    border-radius: 8px;\n  }\n  .ant-modal-footer {\n    display: flex;\n    justify-content: center;\n    background-color: #f1f4f9;\n    padding: 10px;\n    gap: 8px;\n    border-radius: 8px;\n  }\n  .ant-modal-header {\n    border-bottom: none;\n    padding: 16px;\n    margin-bottom: 0;\n  }\n  .ant-modal-body {\n    border-bottom: none;\n    padding: 16px;\n    padding-top: 0;\n  }\n  p {\n    margin-top: 2px;\n  }\n"])));
 var CustomDeleteModal = function (_a) {
     var title = _a.title, content = _a.content, props = __rest(_a, ["title", "content"]);
-    return (_jsx(StyledModal, __assign({ title: _jsxs("div", { className: "flex items-center", children: [_jsx("div", { className: "flex items-center justify-center w-6 h-6 rounded-full bg-[#E01E5A]", children: _jsx("span", { className: "text-white", style: { fontSize: '16px' }, children: "!" }) }), _jsx("span", { className: "ml-2", children: title })] }) }, props, { children: _jsx("p", { className: "ml-2", children: content }) })));
+    return (_jsx(StyledModal, __assign({ title: _jsxs("div", { className: "flex items-center", children: [_jsx("div", { className: "flex items-center justify-center w-6 h-6 rounded-full bg-[#E01E5A]", children: _jsx("span", { className: "text-white", style: { fontSize: "16px" }, children: "!" }) }), _jsx("span", { className: "ml-2", children: title })] }) }, props, { children: _jsx("p", { className: "ml-2", children: content }) })));
 };
 export default CustomDeleteModal;
 var templateObject_1;
